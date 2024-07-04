@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Mukta", sans-serif;
+
+}
+
+.banner-heading {
+    font-size: 80px;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+
+}
+
+.banner {
+    text-align: center;
+    color: white;
+    height: 700px;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5769fc401b631bab1addb2ab/1541584092895-SIG37GOR9MKK5RTF56TI/giphy.gif);
+}
+
+.banner p {}
+
+.btn {
+    background-color: #ffffff;
+    color: rgb(0, 177, 0);
+    padding: 20px 60px;
+    font-size: 22px;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 20px;
+    box-shadow: inset 0 0 20px;
+    transition: .25s;
+
+    &:hover {
+        box-shadow: inset 0 0 40px;
+    }
+}
